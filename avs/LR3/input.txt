@@ -1,0 +1,17 @@
+(((a)))
+a&b
+(a&(bvc))
+(a=b=c=d)
+(a&bvc
+(a&$)
+(())
+(((!a=c)v(a^b))&(a^!b))-c
+(a-b)-((a-c)-(a-b&c))
+!(((a^!b)v(!a-c))&(b/c))
+((a/!b)v!(a^b)-!(!c&a))=c
+(((!a-!b)^(b^c))&(!b=c))/a
+(((a^!c)&(a-!b))v(!a-b))/!c
+(((a-!b)&(a/c))-!a)^!(avb%)
+((avb&!c)^(b-c-!a))-(a/!c))
+!a&!b&cv!b&!c&dvb&!d
+b&!dv!a&!b&dv!b&!c&dv!a&!b&cv!a&c&!d
