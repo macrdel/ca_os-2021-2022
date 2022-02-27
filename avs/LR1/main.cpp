@@ -78,21 +78,13 @@ bool check_str(const string& str)
     int k_plus = 0;   // количество плюсов
     for (char ch : str) {
         if (ch == '.') k_dot++;
-        else if (ch == '-')
+        else if (ch == '-' || ch == '+')
             if (ch != str[0])
                 return false;
             else 
             {
                 k_minus++; 
                 k_plus++;
-            }
-        else if (ch == '+')
-            if (ch != str[0])
-                return false;
-            else
-            {
-                k_plus++;
-                k_minus;
             }
 
         if (ch < '0' && ch != '.' && ch != '-' && ch != '+' || ch > '9' || k_dot > 1 || k_minus > 1 || k_plus > 1)
